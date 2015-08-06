@@ -5,7 +5,7 @@ define(function() {
     $.ajax({
       url: "songsTwo.json",
     }).done(function(data) {
-      getList.call(this, data.songs);
+      getList.call(this, data);
      
   });
  }

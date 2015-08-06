@@ -32,8 +32,9 @@ body {
   font-size: 125%; }
 
 #deleteButton {
-  margin-left: 75%;
   font-weight: bold;
-  font-size: .75em; }
+  font-size: .75em;
+  outline: none;
+  border: none; }
 
 /*# sourceMappingURL=main.css.map */
