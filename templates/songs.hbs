@@ -1,12 +1,12 @@
 
  {{#each songs}}
-   <div class="song-name">
-   <button type="button" class="btn btn-default btn-sm" id="deleteButton">
-  <span class="glyphicon glyphicon-trash" aria-hidden="true"></span>
-</button>
+    <div class="song-name" artist="{{artist}}" album="{{album}}" genre="{{genre}}">
+      <button type="button" class="btn btn-default btn-sm" id="deleteButton">
+        <span class="glyphicon glyphicon-trash" aria-hidden="true"></span>
+      </button>
    {{!-- <button id='deleteButton'>Delete</button> --}}
       <h2>{{name}}</h2>
-        <h4>{{artist}} | {{album}}</h4>
+      <h4>{{artist}} | {{album}}</h4>
       
     </div>
   {{/each}}

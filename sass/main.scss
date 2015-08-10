@@ -2,6 +2,7 @@ $border: 4px groove gray;
 
 body { 
   padding-top: 100px;
+  background-color: slategray;
 }
 
 .navbar-fixed-top {
@@ -23,7 +24,7 @@ body {
   padding: 20px;
 }
 
-.dropdown-toggle {
+.dropdown {
   width: 250px;
   height: 50px;
 }
@@ -56,6 +57,10 @@ body {
   outline: none;
   border: none;
   
+}
+
+.form-group {
+  width: 400px;
 }
 
 

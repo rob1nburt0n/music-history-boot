@@ -14,23 +14,17 @@
 // $(document).ready(function(){
 
 
-define(function(){
+define(function() {
   return {
-   querySongs: function(functionPassedFromMainModule) { 
-
-
-
+    addSong: function(songs) { 
       $.ajax({
-            url: "https://popping-torch-5281.firebaseio.com/.json"
-          }).done(function(data) {
-            console.log(data);
-            functionPassedFromMainModule(data);
+        url: "https://popping-torch-5281.firebaseio.com/songs.json",
+        method: "POST",
+        data: songs
+      }).done(function(addSong) {
+        console.log("addSong:", addSong);
       });
-
-
-
-
     }
   };
 });
-// });
+
