@@ -2,7 +2,7 @@ $border: 4px groove gray;
 
 body { 
   padding-top: 100px;
-  background-color: slategray;
+  background: darkgray url("http://www.hdwallpapers.in/walls/blue_squares-wide.jpg");
 }
 
 .navbar-fixed-top {
@@ -10,23 +10,16 @@ body {
   height: 100px;
   border-bottom: $border;
 }
-//flex boxes
-// .row-eq-height {
-//    display: -webkit-box;
-//    display: -webkit-flex;
-//    display: -ms-flexbox;
-//    display:         flex;
-// }
+
 //left flex box
 .col-md-4 {
-  background-color: lightskyblue;
-  border: $border;
   padding: 20px;
+  color: white;
 }
 
 .dropdown {
   width: 250px;
-  height: 50px;
+  height: 70px;
 }
 
 .progress {
@@ -34,8 +27,8 @@ body {
 }
 //right flex box
 .col-md-8 {
-  background-color: slategray;
-  border: $border;
+  // background-color: slategray;
+  // border: $border;
   padding: 10px;
 }
 
@@ -61,6 +54,7 @@ body {
 
 .form-group {
   width: 400px;
+  color: white;
 }
 
 

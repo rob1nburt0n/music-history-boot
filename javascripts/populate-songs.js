@@ -17,20 +17,15 @@
 define(function(){
   return {
    querySongs: function(functionPassedFromMainModule) { 
-
-
-
+      
       $.ajax({
             url: "https://popping-torch-5281.firebaseio.com/.json"
           }).done(function(data) {
             console.log(data);
             functionPassedFromMainModule(data);
       });
-
-
-
-
-    }
+          
+     }
   };
 });
 // });
